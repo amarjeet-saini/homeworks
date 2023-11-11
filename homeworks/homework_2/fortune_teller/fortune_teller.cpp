@@ -28,6 +28,7 @@ int main() {
   cin >> adjectives[0];
   cout << "Please enter another adjective:" << endl;
   cin >> adjectives[1];
+  cout << endl; 
   cout << "Here is your description:" << endl; 
   cout << name << ", the " << adjectives[name.size() % 2] << " " << nouns.at(season) << " that " << end[name.size() % 3] << endl;
   return 0;
