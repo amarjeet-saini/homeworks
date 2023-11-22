@@ -8,7 +8,7 @@ using std::endl;
 int main() {
     std::string input{}, delimiter{" "};
     cout << "Example program that splits strings."  << endl;
-    cout << "Please enter a sting:" << endl;
+    cout << "Please enter a string:" << endl;
     std::getline(std::cin, input);
 
     std::vector<std::string> split_strings = 
