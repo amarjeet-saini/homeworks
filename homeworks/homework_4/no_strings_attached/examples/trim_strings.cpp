@@ -7,10 +7,10 @@ using std::endl;
 
 int main() {
     std::string input{};
-    cout << "Example program that trims strings"  << endl;
-    cout << "Please enter a sting: " << endl;
+    cout << "Example program that trims strings."  << endl;
+    cout << "Please enter a sting:" << endl;
     std::getline(std::cin, input);
-
+    cout << "Your trimmed string: ";
     std::string trim_strings = no_strings_attached::Trim(input);
     cout << "'" << trim_strings << "'" << endl;
     return 0;
